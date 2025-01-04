@@ -7,8 +7,8 @@ Survival Analysis: Predicts the time until churn for each customer based on hist
 Customer Segmentation: Classifies customers into different segments based on churn risk (e.g., high-risk vs. low-risk).
 AI & ML: Uses machine learning models for churn prediction and customer lifetime analysis.
 MLOps: Ensures efficient model deployment, monitoring, and automation through MLOps pipelines.
-Automated Predictions: Predict churn likelihood using input data for future customer behavior analysis.
-
+Automated Predictions using web app: Predict churn likelihood using input data for future customer behavior analysis.
+ 
 Requirements
 Python 3.6+
 Required libraries:
@@ -46,10 +46,3 @@ Collaboration: Multiple team members can collaborate efficiently on model develo
 
 
 
-MLOps Integration
-This project follows MLOps best practices for model deployment and monitoring. The model is trained, tested, and deployed using automated pipelines. We are using MLflow to log experiments and track model performance.
-
-Key MLOps Steps:
-Model Training: The model is trained and saved locally.
-Model Deployment: The trained model is deployed using Streamlit.
-Monitoring: Regular monitoring and retraining are performed to ensure the model's accuracy over time.
