@@ -42,6 +42,16 @@ Model Retraining: If the model’s performance drops (due to concept drift or ch
 8. MLOps Integration
 Pipeline Automation: The entire ML lifecycle (from training to deployment) is automated using MLOps pipelines, ensuring scalability and consistency.
 Versioning: Keep track of model versions, code changes, and datasets to ensure reproducibility and transparency.
+DVC Setup (for data versioning):
+Install DVC:
+
+pip install dvc
+
+dvc init
+
+dvc add data/churn_data.csv
+git add data/churn_data.csv.dvc
+
 Collaboration: Multiple team members can collaborate efficiently on model development, deployment, and maintenance through version control and CI/CD integration.
 
 
