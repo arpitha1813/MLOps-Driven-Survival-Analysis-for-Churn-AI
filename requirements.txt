@@ -7,3 +7,4 @@ StandardScaler
 joblib
 numpy
 streamlit
+lifelines
