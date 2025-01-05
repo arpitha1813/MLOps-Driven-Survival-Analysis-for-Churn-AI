@@ -18,4 +18,10 @@ ENV PYTHONUNBUFFERED=1
 
 # Run the tests when the container starts (you can customize this command)
 CMD ["pytest", "--maxfail=1", "--disable-warnings", "--junitxml=test_report.xml"]
+
+# Add the dataset into the container
+# Add the dataset into the container
+COPY telco-customer-churn-ibm-dataset/Telco_customer_churn.xlsx /app/dataset/Telco_customer_churn.xlsx
+
+
   
