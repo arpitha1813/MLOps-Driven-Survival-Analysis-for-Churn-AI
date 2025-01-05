@@ -1,0 +1,11 @@
+pandas
+pytest
+scikit-learn
+openpyxl
+os
+zipfile
+zscore
+StandardScaler
+joblib
+numpy
+KaplanMeierFitte
