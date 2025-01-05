@@ -30,6 +30,6 @@ ENV PYTHONUNBUFFERED=1
 # Run the Streamlit app
 #CMD ["streamlit", "run", "streamlit_app.py", "--server.enableCORS=false"]
 
-CMD pytest --maxfail=1 --disable-warnings --junitxml=test_report.xml && streamlit run streamlit_app.py --server.enableCORS=false
+CMD pytest --maxfail=1 --disable-warnings --junitxml=test_report.xml && streamlit run Appla.py --server.enableCORS=false
 
   
