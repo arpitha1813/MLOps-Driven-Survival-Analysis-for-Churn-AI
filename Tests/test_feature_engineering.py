@@ -21,8 +21,7 @@ def feature_engineering(df):
 @pytest.fixture
 def load_data():
     # Load your actual dataset
-    df = pd.read_excel('C:\Users\sindh\OneDrive\Desktop\MTech Sem-2\
-Customer Churn Analysis 4\telco-customer-churn-ibm-dataset\Telco_customer_churn.xlsx')  # Update with actual file path
+    df = pd.read_excel("C:/Users/sindh/OneDrive/Desktop/MTech Sem-2/Customer Churn Analysis 4/telco-customer-churn-ibm-dataset/Telco_customer_churn.xlsx")  # Update with actual file path
     return df
 
 def test_missing_value_imputation(load_data):

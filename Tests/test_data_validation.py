@@ -4,8 +4,7 @@ import pytest
 @pytest.fixture
 def load_data():
     # Load the actual dataset (ensure the file path is correct)
-    return pd.read_excel('C:\Users\sindh\OneDrive\Desktop\MTech Sem-2\
-Customer Churn Analysis 4\telco-customer-churn-ibm-dataset\Telco_customer_churn.xlsx')
+    return pd.read_excel("C:/Users/sindh/OneDrive/Desktop/MTech Sem-2/Customer Churn Analysis 4/telco-customer-churn-ibm-dataset/Telco_customer_churn.xlsx")
 
 def test_missing_value_handling(load_data):
     # Test if missing values are handled
