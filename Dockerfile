@@ -25,6 +25,11 @@ EXPOSE 8081
 ENV PYTHONUNBUFFERED=1
 
 # Run the tests when the container starts (you can customize this command)
-CMD ["pytest", "--maxfail=1", "--disable-warnings", "--junitxml=test_report.xml"]
+#CMD ["pytest", "--maxfail=1", "--disable-warnings", "--junitxml=test_report.xml"]
+
+# Run the Streamlit app
+#CMD ["streamlit", "run", "streamlit_app.py", "--server.enableCORS=false"]
+
+CMD pytest --maxfail=1 --disable-warnings --junitxml=test_report.xml && streamlit run streamlit_app.py --server.enableCORS=false
 
   
