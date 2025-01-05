@@ -6,3 +6,4 @@ zscore
 StandardScaler
 joblib
 numpy
+streamlit
