@@ -8,3 +8,5 @@ joblib
 numpy
 streamlit
 lifelines
+xgboost
+
