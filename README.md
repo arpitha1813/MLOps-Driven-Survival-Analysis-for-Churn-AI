@@ -44,13 +44,10 @@ Pipeline Automation: The entire ML lifecycle (from training to deployment) is au
 Versioning: Keep track of model versions, code changes, and datasets to ensure reproducibility and transparency.
 DVC Setup (for data versioning):
 Install DVC:
-
 pip install dvc
-
 dvc init
+dvc add data/Telco_customer_churn.csv
 
-dvc add data/churn_data.csv
-git add data/churn_data.csv.dvc
 
 Collaboration: Multiple team members can collaborate efficiently on model development, deployment, and maintenance through version control and CI/CD integration.
 
